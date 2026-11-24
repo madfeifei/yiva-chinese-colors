@@ -3,8 +3,9 @@
 An open colour card of traditional Chinese colours, maintained by [YIVA Digital](https://yivadigital.com).
 It ships as a standalone static demo and as the typed npm package [`@yiva/chinese-colors`](packages/chinese-colors).
 
-**Demo:** <https://madfeifei.github.io/yiva-chinese-colors/> (GitHub Pages, deploys from `main`)
-**Full library (161 colours):** <https://yivadigital.com/colors>
+**Live tool (all 161 colours):** <https://yivadigital.com/tool/chinese-color-card>
+**Standalone demo (this repo's 33 colours):** <https://madfeifei.github.io/yiva-chinese-colors/>
+**Colour library:** <https://yivadigital.com/colors>
 
 ![Chinese Color Card demo](docs/screenshot.jpg)
 
