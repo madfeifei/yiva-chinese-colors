@@ -3,7 +3,7 @@
 An open colour card of traditional Chinese colours, maintained by [YIVA Digital](https://yivadigital.com).
 It ships as a standalone static demo and as the typed npm package [`@yiva/chinese-colors`](packages/chinese-colors).
 
-**Demo:** <https://madfeifei.github.io/yiva-chinese-colors/>
+**Demo:** <https://madfeifei.github.io/yiva-chinese-colors/> (GitHub Pages, deploys from `main`)
 **Full library (161 colours):** <https://yivadigital.com/colors>
 
 ![Chinese Color Card demo](docs/screenshot.jpg)
@@ -37,8 +37,10 @@ scripts/build-package-data.mjs
 
 ## Use the package
 
+`@yiva/chinese-colors` is not on the public npm registry yet. Until it is, install it straight from a clone:
+
 ```bash
-npm install @yiva/chinese-colors
+npm install ./packages/chinese-colors
 ```
 
 ```ts
