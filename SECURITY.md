@@ -26,4 +26,6 @@ If you believe you have found any of the above, treat it as a security issue and
 
 - Secret scanning and push protection are enabled on this repository.
 - Dependabot watches npm dependencies and GitHub Actions.
-- CI builds every pull request and fails on committed secret patterns.
+- CI builds every pull request; a `Secret scan` workflow runs gitleaks and trufflehog on every push
+  to `main`, on pull requests and weekly on a schedule.
+- A gitleaks pre-commit hook blocks secrets in staged changes before they reach GitHub.

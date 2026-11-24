@@ -33,8 +33,16 @@ data/sample.json              the 33-colour open sample (canonical)
 apps/card/                    React + Vite demo -> GitHub Pages
 packages/chinese-colors/      @yiva/chinese-colors (TypeScript, JSON, CSS, CSV)
 scripts/build-package-data.mjs
+scripts/install-hooks.mjs     sets up the pre-commit secret scan
 .github/workflows/deploy.yml  demo deployment
 ```
+
+### Pre-commit secret scan
+
+`npm install` points `core.hooksPath` at `.githooks/` and downloads gitleaks into
+`.git/gitleaks/` (skipped when `CI=true`). Every commit then scans the staged diff and blocks on a
+finding. Run `npm run secrets:staged` to check by hand, or `npm run hooks:install` to repair the
+setup. The binary is never committed.
 
 ## Use the package
 
