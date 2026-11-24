@@ -1,0 +1,29 @@
+#!/bin/sh
+# Block secrets before they are committed.
+# Installed by `npm run hooks:install` (also runs automatically on `npm install`).
+
+set -e
+
+git rev-parse --is-inside-work-tree >/dev/null 2>&1 || exit 0
+
+root=$(git rev-parse --show-toplevel)
+bin=""
+
+if command -v gitleaks >/dev/null 2>&1; then
+  bin=$(command -v gitleaks)
+else
+  for candidate in "$root/.git/gitleaks/gitleaks" "$root/.git/gitleaks/gitleaks.exe"; do
+    if [ -f "$candidate" ]; then
+      bin="$candidate"
+      break
+    fi
+  done
+fi
+
+if [ -z "$bin" ]; then
+  echo "pre-commit: gitleaks is not installed, skipping secret scan." >&2
+  echo "pre-commit: run 'npm run hooks:install' to install it." >&2
+  exit 0
+fi
+
+exec "$bin" git --pre-commit --staged --redact --no-banner --verbose --exit-code 1

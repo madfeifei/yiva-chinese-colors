@@ -19,7 +19,10 @@
     "build:data": "node scripts/build-package-data.mjs",
     "build:app": "npm run build -w @yiva/color-card",
     "build:pkg": "npm run build -w @yiva/chinese-colors",
-    "preview": "npm run preview -w @yiva/color-card"
+    "preview": "npm run preview -w @yiva/color-card",
+    "prepare": "node scripts/install-hooks.mjs --quiet",
+    "hooks:install": "node scripts/install-hooks.mjs",
+    "secrets:staged": "node scripts/scan-staged.mjs"
   },
   "engines": {
     "node": ">=20"
