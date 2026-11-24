@@ -1,0 +1,58 @@
+{
+  "name": "@yiva/chinese-colors",
+  "version": "0.1.0",
+  "description": "Open sample of the Chinese Colour Library: 33 traditional colours (9 classical anchors + 24 solar-term opening colours) with HEX/RGB/HSL/OKLCH, nearest CSS & Pantone matches, ΔE and bilingual notes.",
+  "keywords": [
+    "chinese-colors",
+    "traditional-chinese-colours",
+    "中国传统色",
+    "color-palette",
+    "colours",
+    "solar-terms",
+    "24-solar-terms",
+    "pantone",
+    "design-tokens",
+    "yiva"
+  ],
+  "license": "MIT",
+  "author": "YIVA Digital <hello@yivadigital.com>",
+  "homepage": "https://yivadigital.com/colors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madfeifei/yiva-chinese-colors.git",
+    "directory": "packages/chinese-colors"
+  },
+  "bugs": {
+    "url": "https://github.com/madfeifei/yiva-chinese-colors/issues"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./data.json": "./dist/data.json",
+    "./chinese-colors.css": "./dist/chinese-colors.css",
+    "./chinese-colors.csv": "./dist/chinese-colors.csv",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node src/postbuild.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,2055 @@
+{
+  "meta": {
+    "name": "Chinese Colour Library — Open Sample",
+    "nameZh": "中国传统色库 — 开源精选",
+    "version": "0.1.0",
+    "generatedAt": "2026-11-24T12:51:25.001Z",
+    "count": 33,
+    "counts": {
+      "classical": 9,
+      "solar": 24,
+      "solarTerms": 24,
+      "families": 9
+    },
+    "families": [
+      "赤",
+      "黄",
+      "绿",
+      "青",
+      "蓝",
+      "紫",
+      "白",
+      "黑",
+      "褐"
+    ],
+    "familyLabels": {
+      "赤": "Red",
+      "黄": "Yellow",
+      "绿": "Green",
+      "青": "Cyan",
+      "蓝": "Blue",
+      "紫": "Purple",
+      "白": "White",
+      "黑": "Black",
+      "褐": "Brown"
+    },
+    "systems": {
+      "classical": "古典色名 — classical colour names from pre-Qin to Qing texts (《周礼》《说文解字》《释名》…)",
+      "solar": "节气色系 — 24 solar terms × 4 roles (起/承/转/合 = opening/succeeding/turning/combining); values transcribed via cncolor.art"
+    },
+    "license": {
+      "data": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "code": "MIT",
+      "attribution": "YIVA Digital — Chinese Colour Library (https://yivadigital.com/colors)"
+    },
+    "sources": [
+      "中文维基百科《中国传统色彩》 (Chinese Wikipedia, Traditional Chinese Colours)",
+      "郭浩 / 李健明《中国传统色：故宫里的色彩美学》(2020) — 起承转合 colour system for the 24 solar terms",
+      "zhongguose.com 中国传统色在线色卡 (common conversions)",
+      "cncolor.art 二十四节气色 (third-party transcription; source of the 96 solar-term values)",
+      "CSS named colours (W3C, 148)",
+      "Pantone FHI/TCX — unofficial dataset Margaret2/pantone-colors (2,310 colours), nearest-match only",
+      "OKLab/OKLCH (Björn Ottosson) for perceptual distance matching",
+      "Classical texts cited per colour: 《周礼》《说文解字》《释名》《礼记·月令》 and others"
+    ],
+    "disclaimer": "Pantone and CSS matches are nearest perceptual matches (OKLab distance), NOT official colour references; verify against Pantone Connect / official swatches before commercial use. Traditional Chinese colours have no single standard value — hex values are common reference conversions. CC BY 4.0 applies to the data compilation; the colour names and classical citations belong to the public domain sources named above.",
+    "provenance": {
+      "systems": {
+        "A": "古典色名",
+        "B": "节气色系",
+        "C": "物象色卡"
+      },
+      "credibilityLevels": [
+        "古籍直证",
+        "文物取色",
+        "现代整理",
+        "近似转译"
+      ],
+      "note": "每色标注所属体系与来源；古籍直证/文物取色为强证据，现代整理/近似转译为弱证据。"
+    },
+    "sampleNote": "Open sample of 33 colours: 9 classical anchors (one per family) and the 24 solar-term opening colours. The full 161-colour library, with all four roles per solar term, lives at https://yivadigital.com/colors."
+  },
+  "colors": [
+    {
+      "slug": "zhu-sha",
+      "name": "朱砂",
+      "pinyin": "zhū shā",
+      "enName": "Cinnabar",
+      "hex": "#E34234",
+      "rgb": [
+        227,
+        66,
+        52
+      ],
+      "hsl": [
+        5,
+        76,
+        55
+      ],
+      "oklch": [
+        0.613,
+        0.2,
+        29.1
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "classical",
+      "systemCode": "A",
+      "systemName": "古典色名",
+      "credibility": "文物取色",
+      "css": {
+        "name": "crimson",
+        "hex": "#DC143C",
+        "deltaE": 0.0577
+      },
+      "pantone": {
+        "name": "grenadine",
+        "hex": "#DF3F32",
+        "deltaE": 0.0099
+      },
+      "meaning": {
+        "zh": "朱红如丹砂，印泥之色",
+        "en": "Cinnabar vermilion"
+      },
+      "origin": {
+        "zh": "矿物朱砂（辰砂）研制红色颜料，历代绘画与印泥之用；朱磦为其浮皮橙色，另是一色。",
+        "en": "Red pigment ground from cinnabar (vermilion) for painting and seal paste; the orange top layer of the same pigment is 朱磦, a separate colour."
+      },
+      "citation": {
+        "zh": "矿物朱砂（辰砂）研制的红色颜料，历代绘画、印泥之用",
+        "en": "Red pigment ground from cinnabar, long used in painting and seal paste."
+      },
+      "caution": "Seal-paste red: authority, vermilion signatures.",
+      "term": null,
+      "termEn": null,
+      "termIndex": null,
+      "season": null,
+      "seasonEn": null,
+      "role": null,
+      "roleEn": null,
+      "phenology": null,
+      "story": null
+    },
+    {
+      "slug": "xiang-se",
+      "name": "缃色",
+      "pinyin": "xiāng sè",
+      "enName": "Silk Yellow",
+      "hex": "#F0C239",
+      "rgb": [
+        240,
+        194,
+        57
+      ],
+      "hsl": [
+        45,
+        86,
+        58
+      ],
+      "oklch": [
+        0.832,
+        0.154,
+        89.1
+      ],
+      "family": "黄",
+      "familyEn": "Yellow",
+      "system": "classical",
+      "systemCode": "A",
+      "systemName": "古典色名",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "gold",
+        "hex": "#FFD700",
+        "deltaE": 0.063954
+      },
+      "pantone": {
+        "name": "freesia",
+        "hex": "#F3C12C",
+        "deltaE": 0.006758
+      },
+      "meaning": {
+        "zh": "浅黄如桑叶",
+        "en": "Pale silk yellow"
+      },
+      "origin": {
+        "zh": "《说文》缃，帛浅黄色也",
+        "en": "Pale-yellow silk (Shuowen)"
+      },
+      "citation": {
+        "zh": "《说文解字》：缃，帛浅黄色也",
+        "en": "Shuowen Jiezi — “xiang: pale-yellow silk”."
+      },
+      "caution": "Yellow = imperial & central/earth in China.",
+      "term": null,
+      "termEn": null,
+      "termIndex": null,
+      "season": null,
+      "seasonEn": null,
+      "role": null,
+      "roleEn": null,
+      "phenology": null,
+      "story": null
+    },
+    {
+      "slug": "zhu-qing",
+      "name": "竹青",
+      "pinyin": "zhú qīng",
+      "enName": "Bamboo Green",
+      "hex": "#789262",
+      "rgb": [
+        120,
+        146,
+        98
+      ],
+      "hsl": [
+        93,
+        20,
+        48
+      ],
+      "oklch": [
+        0.627,
+        0.075,
+        131.4
+      ],
+      "family": "绿",
+      "familyEn": "Green",
+      "system": "classical",
+      "systemCode": "A",
+      "systemName": "古典色名",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "olivedrab",
+        "hex": "#6B8E23",
+        "deltaE": 0.068752
+      },
+      "pantone": {
+        "name": "jade-green",
+        "hex": "#759465",
+        "deltaE": 0.006253
+      },
+      "meaning": {
+        "zh": "竹皮青绿",
+        "en": "Bamboo green"
+      },
+      "origin": {
+        "zh": "竹之色",
+        "en": "Bamboo"
+      },
+      "citation": {
+        "zh": "竹之色，明清色名",
+        "en": "Bamboo colour; a Ming–Qing colour name."
+      },
+      "caution": null,
+      "term": null,
+      "termEn": null,
+      "termIndex": null,
+      "season": null,
+      "seasonEn": null,
+      "role": null,
+      "roleEn": null,
+      "phenology": null,
+      "story": null
+    },
+    {
+      "slug": "tian-qing",
+      "name": "天青",
+      "pinyin": "tiān qīng",
+      "enName": "Ru-Kiln Sky",
+      "hex": "#78C0C0",
+      "rgb": [
+        120,
+        192,
+        192
+      ],
+      "hsl": [
+        180,
+        36,
+        61
+      ],
+      "oklch": [
+        0.761,
+        0.072,
+        195.7
+      ],
+      "family": "青",
+      "familyEn": "Cyan",
+      "system": "classical",
+      "systemCode": "A",
+      "systemName": "古典色名",
+      "credibility": "文物取色",
+      "css": {
+        "name": "mediumturquoise",
+        "hex": "#48D1CC",
+        "deltaE": 0.051612
+      },
+      "pantone": {
+        "name": "aqua-sky",
+        "hex": "#7BC4C4",
+        "deltaE": 0.012017
+      },
+      "meaning": {
+        "zh": "汝窑雨过天青之色",
+        "en": "Sky after rain"
+      },
+      "origin": {
+        "zh": "汝窑天青釉",
+        "en": "Ru-ware sky-blue glaze"
+      },
+      "citation": {
+        "zh": "汝窑天青釉，宋代文物取色（雨过天青）",
+        "en": "Ru-ware sky-celadon glaze, sampled from Song-dynasty ceramics."
+      },
+      "caution": "Legendary Ru-ware glaze: 'sky after rain'.",
+      "term": null,
+      "termEn": null,
+      "termIndex": null,
+      "season": null,
+      "seasonEn": null,
+      "role": null,
+      "roleEn": null,
+      "phenology": null,
+      "story": null
+    },
+    {
+      "slug": "qun-qing",
+      "name": "群青",
+      "pinyin": "qún qīng",
+      "enName": "Ultramarine",
+      "hex": "#4C8DAE",
+      "rgb": [
+        76,
+        141,
+        174
+      ],
+      "hsl": [
+        200,
+        39,
+        49
+      ],
+      "oklch": [
+        0.614,
+        0.083,
+        232.4
+      ],
+      "family": "蓝",
+      "familyEn": "Blue",
+      "system": "classical",
+      "systemCode": "A",
+      "systemName": "古典色名",
+      "credibility": "文物取色",
+      "css": {
+        "name": "steelblue",
+        "hex": "#4682B4",
+        "deltaE": 0.036895
+      },
+      "pantone": {
+        "name": "niagara",
+        "hex": "#5487A4",
+        "deltaE": 0.019716
+      },
+      "meaning": {
+        "zh": "佛画深蓝",
+        "en": "Ultramarine"
+      },
+      "origin": {
+        "zh": "青金石颜料",
+        "en": "Lapis lazuli pigment"
+      },
+      "citation": {
+        "zh": "青金石颜料，敦煌壁画等古代重彩用色",
+        "en": "Lapis-lazuli pigment, used in Dunhuang murals and other polychrome painting."
+      },
+      "caution": "Sacred/religious blue.",
+      "term": null,
+      "termEn": null,
+      "termIndex": null,
+      "season": null,
+      "seasonEn": null,
+      "role": null,
+      "roleEn": null,
+      "phenology": null,
+      "story": null
+    },
+    {
+      "slug": "ding-xiang",
+      "name": "丁香",
+      "pinyin": "dīng xiāng",
+      "enName": "Lilac",
+      "hex": "#CCA4E3",
+      "rgb": [
+        204,
+        164,
+        227
+      ],
+      "hsl": [
+        278,
+        53,
+        77
+      ],
+      "oklch": [
+        0.776,
+        0.098,
+        312.9
+      ],
+      "family": "紫",
+      "familyEn": "Purple",
+      "system": "classical",
+      "systemCode": "A",
+      "systemName": "古典色名",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "plum",
+        "hex": "#DDA0DD",
+        "deltaE": 0.027352
+      },
+      "pantone": {
+        "name": "mauve-mist",
+        "hex": "#C49BD4",
+        "deltaE": 0.030912
+      },
+      "meaning": {
+        "zh": "丁香花淡紫",
+        "en": "Lilac purple"
+      },
+      "origin": {
+        "zh": "丁香花色",
+        "en": "Lilac blossom"
+      },
+      "citation": {
+        "zh": "丁香花色，唐宋诗词用色名",
+        "en": "Lilac-blossom colour, a Tang–Song poetic colour name."
+      },
+      "caution": null,
+      "term": null,
+      "termEn": null,
+      "termIndex": null,
+      "season": null,
+      "seasonEn": null,
+      "role": null,
+      "roleEn": null,
+      "phenology": null,
+      "story": null
+    },
+    {
+      "slug": "xiang-ya-bai",
+      "name": "象牙白",
+      "pinyin": "xiàng yá bái",
+      "enName": "Ivory",
+      "hex": "#FFFBF0",
+      "rgb": [
+        255,
+        251,
+        240
+      ],
+      "hsl": [
+        44,
+        100,
+        97
+      ],
+      "oklch": [
+        0.988,
+        0.015,
+        90.2
+      ],
+      "family": "白",
+      "familyEn": "White",
+      "system": "classical",
+      "systemCode": "A",
+      "systemName": "古典色名",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "floralwhite",
+        "hex": "#FFFAF0",
+        "deltaE": 0.00257
+      },
+      "pantone": {
+        "name": "bright-white",
+        "hex": "#F4F5F0",
+        "deltaE": 0.022294
+      },
+      "meaning": {
+        "zh": "象牙暖白",
+        "en": "Ivory white"
+      },
+      "origin": {
+        "zh": "象牙色",
+        "en": "Ivory"
+      },
+      "citation": {
+        "zh": "象牙之色，历代文献物象色名",
+        "en": "Ivory, a long-standing object colour name in literature."
+      },
+      "caution": null,
+      "term": null,
+      "termEn": null,
+      "termIndex": null,
+      "season": null,
+      "seasonEn": null,
+      "role": null,
+      "roleEn": null,
+      "phenology": null,
+      "story": null
+    },
+    {
+      "slug": "mo-se",
+      "name": "墨色",
+      "pinyin": "mò sè",
+      "enName": "Ink Grey",
+      "hex": "#33302D",
+      "rgb": [
+        51,
+        48,
+        45
+      ],
+      "hsl": [
+        30,
+        6,
+        19
+      ],
+      "oklch": [
+        0.311,
+        0.007,
+        67.6
+      ],
+      "family": "黑",
+      "familyEn": "Black",
+      "system": "classical",
+      "systemCode": "A",
+      "systemName": "古典色名",
+      "credibility": "文物取色",
+      "css": {
+        "name": "darkslategray",
+        "hex": "#2F4F4F",
+        "deltaE": 0.101
+      },
+      "pantone": {
+        "name": "espresso",
+        "hex": "#363031",
+        "deltaE": 0.0094
+      },
+      "meaning": {
+        "zh": "墨汁青黑",
+        "en": "Ink black"
+      },
+      "origin": {
+        "zh": "松烟墨色——松烟墨偏暖黑，文房器物与书画用色。",
+        "en": "Pine-soot ink: a warm near-black used in the scholar’s study and brush painting."
+      },
+      "citation": {
+        "zh": "松烟墨色，文房器物与书画用色",
+        "en": "Pine-soot ink colour, used in scholar’s objects and calligraphy."
+      },
+      "caution": "Black ink. Black = formal & mourning in China.",
+      "term": null,
+      "termEn": null,
+      "termIndex": null,
+      "season": null,
+      "seasonEn": null,
+      "role": null,
+      "roleEn": null,
+      "phenology": null,
+      "story": null
+    },
+    {
+      "slug": "zhe-shi",
+      "name": "赭石",
+      "pinyin": "zhě shí",
+      "enName": "Red Ochre",
+      "hex": "#9C5333",
+      "rgb": [
+        156,
+        83,
+        51
+      ],
+      "hsl": [
+        18,
+        51,
+        41
+      ],
+      "oklch": [
+        0.523,
+        0.107,
+        43.5
+      ],
+      "family": "褐",
+      "familyEn": "Brown",
+      "system": "classical",
+      "systemCode": "A",
+      "systemName": "古典色名",
+      "credibility": "文物取色",
+      "css": {
+        "name": "sienna",
+        "hex": "#A0522D",
+        "deltaE": 0.008833
+      },
+      "pantone": {
+        "name": "bombay-brown",
+        "hex": "#9F5130",
+        "deltaE": 0.006627
+      },
+      "meaning": {
+        "zh": "赤土之色",
+        "en": "Ochre"
+      },
+      "origin": {
+        "zh": "《说文》赭，赤土也",
+        "en": "Red earth (Shuowen)"
+      },
+      "citation": {
+        "zh": "《说文》：赭，赤土也；赭石矿物颜料",
+        "en": "Shuowen — “zhe: red earth”; ochre mineral pigment."
+      },
+      "caution": null,
+      "term": null,
+      "termEn": null,
+      "termIndex": null,
+      "season": null,
+      "seasonEn": null,
+      "role": null,
+      "roleEn": null,
+      "phenology": null,
+      "story": null
+    },
+    {
+      "slug": "huang-bai-you",
+      "name": "黄白游",
+      "pinyin": "Huáng Bái Yóu",
+      "enName": "Yellow-White Drift",
+      "hex": "#FFF799",
+      "rgb": [
+        255,
+        247,
+        153
+      ],
+      "hsl": [
+        55,
+        100,
+        80
+      ],
+      "oklch": [
+        0.962,
+        0.116,
+        104.1
+      ],
+      "family": "黄",
+      "familyEn": "Yellow",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "khaki",
+        "hex": "#F0E68C",
+        "deltaE": 0.048916
+      },
+      "pantone": {
+        "name": "elfin yellow",
+        "hex": "#eeea97",
+        "deltaE": 0.04221
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“You” means to drift or wander. A pale yellow that wanders between yellow and white — not a fixed colour, but one caught mid-change."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Lichun, the first of the 24 solar terms, opens the year. As the east wind breaks the ice, low daylight on the water throws back a yellow-white shimmer that drifts and shifts — hence the name. It holds the seam between winter and spring: ice not yet gone, light still wavering."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：立春之日，东风解冻。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of Start of Spring, the east wind thaws the ice.” (opening colour of 立春.)"
+      },
+      "caution": null,
+      "term": "立春",
+      "termEn": "Start of Spring",
+      "termIndex": 0,
+      "season": "春",
+      "seasonEn": "Spring",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"东风解冻，蛰虫始振，鱼上冰。\"",
+      "story": "立春为二十四节气之首，象征春季开始。黄白游是立春的承色，取天地初交、万物萌发之意。"
+    },
+    {
+      "slug": "ying-ying",
+      "name": "盈盈",
+      "pinyin": "Yíng Yíng",
+      "enName": "Brimming",
+      "hex": "#F9D3E3",
+      "rgb": [
+        249,
+        211,
+        227
+      ],
+      "hsl": [
+        335,
+        76,
+        90
+      ],
+      "oklch": [
+        0.903,
+        0.047,
+        350.8
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "pink",
+        "hex": "#FFC0CB",
+        "deltaE": 0.04745
+      },
+      "pantone": {
+        "name": "cherry blossom",
+        "hex": "#f7cee0",
+        "deltaE": 0.012728
+      },
+      "meaning": {
+        "zh": "",
+        "en": "The look of a clear, welling surface — water so limpid it seems to hold light. A tender pink-on-white, the colour of spring water just after rain."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Rain Water is the second term of spring, when rainfall begins to grow and streams start to run full. “Brimming” is borrowed from the sense of water rising to its lip — pale pink catching the light on a full surface. It is the opening colour of the term, and the softest note in a four-part descent from pink to plum."
+      },
+      "citation": {
+        "zh": "杜甫《春夜喜雨》",
+        "en": "Du Fu, “Happy Rain on a Spring Night” — “it steals in on the night wind, moistening all things in silence.” (opening colour of 雨水.)"
+      },
+      "caution": null,
+      "term": "雨水",
+      "termEn": "Rain Water",
+      "termIndex": 1,
+      "season": "春",
+      "seasonEn": "Spring",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"随风潜入夜，润物细无声。\"",
+      "story": "雨水是春季第二个节气，降雨开始增多。盈盈色取自春水盈盈之貌，是雨水节气的承色。"
+    },
+    {
+      "slug": "chi-ti",
+      "name": "赤缇",
+      "pinyin": "Chì Tí",
+      "enName": "Red Ochre",
+      "hex": "#BA5B49",
+      "rgb": [
+        186,
+        91,
+        73
+      ],
+      "hsl": [
+        10,
+        45,
+        51
+      ],
+      "oklch": [
+        0.583,
+        0.127,
+        32.2
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "indianred",
+        "hex": "#CD5C5C",
+        "deltaE": 0.043829
+      },
+      "pantone": {
+        "name": "mecca orange",
+        "hex": "#bd5745",
+        "deltaE": 0.009184
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“Tí” is a reddish-yellow earth pigment. Red Ochre is a warm rust-red, the colour of iron in soil."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Awakening of Insects is the third term of spring: the first thunder sounds and dormant insects stir. Its palette turns from the pinks of rain to earth-reds. Red Ochre opens the term at the warm floor of that range — the colour of exposed ground after the year’s first storm."
+      },
+      "citation": {
+        "zh": "韦应物《观田家》",
+        "en": "Wei Yingwu, “Watching the Farmstead” — a poem on the farmer’s year, beginning at the first thunder. (opening colour of 惊蛰.)"
+      },
+      "caution": null,
+      "term": "惊蛰",
+      "termEn": "Awakening of Insects",
+      "termIndex": 2,
+      "season": "春",
+      "seasonEn": "Spring",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"微雨众卉新，一雷惊蛰始。\"",
+      "story": "惊蛰是春季第三个节气，春雷始鸣，蛰伏的昆虫苏醒。桃夭色取自桃花初绽，是惊蛰节气的转色。"
+    },
+    {
+      "slug": "jiao-yu",
+      "name": "皦玉",
+      "pinyin": "Jiǎo Yù",
+      "enName": "Bright Jade",
+      "hex": "#EBEEE8",
+      "rgb": [
+        235,
+        238,
+        232
+      ],
+      "hsl": [
+        90,
+        15,
+        92
+      ],
+      "oklch": [
+        0.945,
+        0.009,
+        128.6
+      ],
+      "family": "白",
+      "familyEn": "White",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "whitesmoke",
+        "hex": "#F5F5F5",
+        "deltaE": 0.026423
+      },
+      "pantone": {
+        "name": "star white",
+        "hex": "#efefe8",
+        "deltaE": 0.006121
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“Jiǎo” means bright, luminous white. Bright Jade is the cool, faintly green-tinged white of polished stone."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Spring Equinox divides day and night in equal halves. Its palette abandons the season’s reds for the whites of the equinox sky and of jade. Bright Jade opens the term — white with a whisper of green in it, light before it takes on colour."
+      },
+      "citation": {
+        "zh": "徐铉《春分》",
+        "en": "Xu Xuan, “Spring Equinox” — on the day when day and night stand equal. (opening colour of 春分.)"
+      },
+      "caution": null,
+      "term": "春分",
+      "termEn": "Spring Equinox",
+      "termIndex": 3,
+      "season": "春",
+      "seasonEn": "Spring",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"春分雨脚落声微，柳岸斜风带客归。\"",
+      "story": "春分是昼夜平分之日。皦玉色取自洁白玉石的温润光泽，是春分节气的起色。"
+    },
+    {
+      "slug": "zi-pu",
+      "name": "紫蒲",
+      "pinyin": "Zǐ Pú",
+      "enName": "Purple Cattail",
+      "hex": "#A6559D",
+      "rgb": [
+        166,
+        85,
+        157
+      ],
+      "hsl": [
+        307,
+        32,
+        49
+      ],
+      "oklch": [
+        0.572,
+        0.14,
+        331.5
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "mediumorchid",
+        "hex": "#BA55D3",
+        "deltaE": 0.089409
+      },
+      "pantone": {
+        "name": "radiant orchid",
+        "hex": "#ad5e99",
+        "deltaE": 0.028393
+      },
+      "meaning": {
+        "zh": "",
+        "en": "The deep violet of cattail reeds along the water’s edge."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Pure Brightness is the clear, bright term of early April, when people sweep graves and walk in the rain. Its palette is a single violet family, opening with the purple of the cattail that lines every pond — quiet, damp, and cool."
+      },
+      "citation": {
+        "zh": "杜牧《清明》",
+        "en": "Du Mu, “Pure Brightness” — “a rain falls thick; the traveller on the road is sick at heart.” (opening colour of 清明.)"
+      },
+      "caution": null,
+      "term": "清明",
+      "termEn": "Pure Brightness",
+      "termIndex": 4,
+      "season": "春",
+      "seasonEn": "Spring",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"清明时节雨纷纷，路上行人欲断魂。\"",
+      "story": "清明是气清景明之意。紫蒲色取自水边香蒲的深紫色，是清明节气的起色。"
+    },
+    {
+      "slug": "chang-rong",
+      "name": "昌荣",
+      "pinyin": "Chāng Róng",
+      "enName": "Flourishing",
+      "hex": "#DCC7E1",
+      "rgb": [
+        220,
+        199,
+        225
+      ],
+      "hsl": [
+        288,
+        30,
+        83
+      ],
+      "oklch": [
+        0.855,
+        0.042,
+        319.7
+      ],
+      "family": "紫",
+      "familyEn": "Purple",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "thistle",
+        "hex": "#D8BFD8",
+        "deltaE": 0.022224
+      },
+      "pantone": {
+        "name": "lilac snow",
+        "hex": "#e0c7d7",
+        "deltaE": 0.014809
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“Chang rong” means thriving, luxuriant. Named for an auspicious herb, matched here as a pale lilac."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Grain Rain is the last term of spring, when rain falls and the hundred grains are sown. It is the purple term of the year, and its four colours are all a single lilac-violet, opening at their lightest and palest before darkening step by step."
+      },
+      "citation": {
+        "zh": "范成大《谷雨》",
+        "en": "Fan Chengda, “Grain Rain” — on the rain that brings the hundred grains. (opening colour of 谷雨.)"
+      },
+      "caution": null,
+      "term": "谷雨",
+      "termEn": "Grain Rain",
+      "termIndex": 5,
+      "season": "春",
+      "seasonEn": "Spring",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"谷雨如丝复似尘，煮瓶浮蜡正尝新。\"",
+      "story": "谷雨是春季最后一个节气，雨生百谷。昌荣色是紫色的一种，取自仙草昌荣，是谷雨节气的起色。"
+    },
+    {
+      "slug": "qing-can",
+      "name": "青粲",
+      "pinyin": "Qīng Càn",
+      "enName": "Fresh Grain Green",
+      "hex": "#C3D94E",
+      "rgb": [
+        195,
+        217,
+        78
+      ],
+      "hsl": [
+        69,
+        65,
+        58
+      ],
+      "oklch": [
+        0.843,
+        0.163,
+        117.7
+      ],
+      "family": "绿",
+      "familyEn": "Green",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "yellowgreen",
+        "hex": "#9ACD32",
+        "deltaE": 0.067165
+      },
+      "pantone": {
+        "name": "lime popsicle",
+        "hex": "#c0db3a",
+        "deltaE": 0.016616
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“Qing” is the green-blue of young plants; “càn” is bright, polished grain. Fresh Grain Green is the clear green of ripening wheat."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Start of Summer opens the year’s green half. Wheat is filling out and the fields have gone from yellow to green. As the term’s opening colour it is the exact green of grain not yet ripe — bright, edible, and light rather than heavy."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：立夏之日，蝼蝈鸣。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of Start of Summer, the mole cricket sings.” (opening colour of 立夏.)"
+      },
+      "caution": null,
+      "term": "立夏",
+      "termEn": "Start of Summer",
+      "termIndex": 6,
+      "season": "夏",
+      "seasonEn": "Summer",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"蝼蝈鸣，蚯蚓出，王瓜生。\"",
+      "story": "立夏是夏季的开始，万物生长。青粲色取自麦粒初熟的绿色，是立夏节气的起色。"
+    },
+    {
+      "slug": "tong-guan",
+      "name": "彤管",
+      "pinyin": "Tóng Guǎn",
+      "enName": "Vermilion Tube",
+      "hex": "#E2A2AC",
+      "rgb": [
+        226,
+        162,
+        172
+      ],
+      "hsl": [
+        351,
+        52,
+        76
+      ],
+      "oklch": [
+        0.776,
+        0.077,
+        8.7
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "lightpink",
+        "hex": "#FFB6C1",
+        "deltaE": 0.072068
+      },
+      "pantone": {
+        "name": "peony",
+        "hex": "#ed9ca8",
+        "deltaE": 0.020943
+      },
+      "meaning": {
+        "zh": "",
+        "en": "From the Book of Songs: “a girl gave me a vermilion tube.” A warm, muted pink-red."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Grain Full marks the grain swelling but not yet ripe. The term’s palette is a single red family, and it opens with the softest of the four — the pink-red of the poet’s gift, bright but not yet hot."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：小满之日，苦菜秀。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of Grain Full, the sow-thistle flourishes.” (opening colour of 小满.)"
+      },
+      "caution": null,
+      "term": "小满",
+      "termEn": "Grain Full",
+      "termIndex": 7,
+      "season": "夏",
+      "seasonEn": "Summer",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"苦菜秀，靡草死，小暑至。\"",
+      "story": "小满时节，麦类灌浆但未完全饱满。彤管色取自红色管状植物，是小满节气的起色。"
+    },
+    {
+      "slug": "jun-wu",
+      "name": "筠雾",
+      "pinyin": "Jūn Wù",
+      "enName": "Bamboo Mist",
+      "hex": "#D5D1AE",
+      "rgb": [
+        213,
+        209,
+        174
+      ],
+      "hsl": [
+        54,
+        32,
+        76
+      ],
+      "oklch": [
+        0.855,
+        0.047,
+        101.9
+      ],
+      "family": "黄",
+      "familyEn": "Yellow",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "palegoldenrod",
+        "hex": "#EEE8AA",
+        "deltaE": 0.073931
+      },
+      "pantone": {
+        "name": "hay",
+        "hex": "#d3cca3",
+        "deltaE": 0.016664
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“Jūn” is the skin of bamboo; Bamboo Mist is the pale, soft green-grey of thin mist among bamboos."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Grain in Ear begins the season when the bearded grains are sown, and the term’s colours are all a single soft bamboo-green. It opens at the palest: mist, not bamboo — the colour half-dissolved in the air."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：芒种之日，螳螂生。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of Grain in Ear, the mantis is born.” (opening colour of 芒种.)"
+      },
+      "caution": null,
+      "term": "芒种",
+      "termEn": "Grain in Ear",
+      "termIndex": 8,
+      "season": "夏",
+      "seasonEn": "Summer",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"螳螂生，鵙始鸣，反舌无声。\"",
+      "story": "芒种是有芒的谷类作物可种之节。筠雾色取自竹间薄雾，是芒种节气的起色。"
+    },
+    {
+      "slug": "xi-chi",
+      "name": "赩炽",
+      "pinyin": "Xì Chì",
+      "enName": "Blazing Red",
+      "hex": "#CB523E",
+      "rgb": [
+        203,
+        82,
+        62
+      ],
+      "hsl": [
+        9,
+        58,
+        52
+      ],
+      "oklch": [
+        0.594,
+        0.158,
+        31.6
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "indianred",
+        "hex": "#CD5C5C",
+        "deltaE": 0.035794
+      },
+      "pantone": {
+        "name": "paprika",
+        "hex": "#ce4d42",
+        "deltaE": 0.012545
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“xì” is a fierce red; “chì” is to blaze. A hot, orange-leaning red."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Summer Solstice is the longest day of the year, the sun at its height. Its palette is all red-hot, and it opens with this one — not a plant’s red or a dye’s but fire’s, the colour the sun itself would be if it were a dye."
+      },
+      "citation": {
+        "zh": "韦应物《夏至避暑北池》",
+        "en": "Wei Yingwu, “Escaping the Heat by the North Pool at the Summer Solstice”. (opening colour of 夏至.)"
+      },
+      "caution": null,
+      "term": "夏至",
+      "termEn": "Summer Solstice",
+      "termIndex": 9,
+      "season": "夏",
+      "seasonEn": "Summer",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"昼晷已云极，宵漏自此长。\"",
+      "story": "夏至是北半球白昼最长之日。赩炽色取自赤红似火，是夏至节气的起色。"
+    },
+    {
+      "slug": "xing-gang",
+      "name": "骍刚",
+      "pinyin": "Xīng Gāng",
+      "enName": "Firm Red",
+      "hex": "#F5B087",
+      "rgb": [
+        245,
+        176,
+        135
+      ],
+      "hsl": [
+        22,
+        85,
+        75
+      ],
+      "oklch": [
+        0.813,
+        0.098,
+        51.6
+      ],
+      "family": "黄",
+      "familyEn": "Yellow",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "lightsalmon",
+        "hex": "#FFA07A",
+        "deltaE": 0.037567
+      },
+      "pantone": {
+        "name": "apricot wash",
+        "hex": "#fbac82",
+        "deltaE": 0.012306
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“xīng” is the red of a strong ox; “gāng” is firm. A warm, tan-orange, the colour of a red beast’s flank in sun."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Minor Heat begins the hottest stretch of summer. The term’s palette is a single apricot-orange family, opening at the palest and warmest — the colour of heat with dust in it, dry rather than blazing."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：小暑之日，温风至。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of Minor Heat, warm winds arrive.” (opening colour of 小暑.)"
+      },
+      "caution": null,
+      "term": "小暑",
+      "termEn": "Minor Heat",
+      "termIndex": 10,
+      "season": "夏",
+      "seasonEn": "Summer",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"温风至，蟋蟀居壁，鹰乃学习。\"",
+      "story": "小暑标志着盛夏开始。骍刚色取自赤黄色的刚坚之气，是小暑节气的起色。"
+    },
+    {
+      "slug": "xi-lan",
+      "name": "夕岚",
+      "pinyin": "Xī Lán",
+      "enName": "Evening Haze",
+      "hex": "#E3ADB9",
+      "rgb": [
+        227,
+        173,
+        185
+      ],
+      "hsl": [
+        347,
+        49,
+        78
+      ],
+      "oklch": [
+        0.8,
+        0.065,
+        3.9
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "lightpink",
+        "hex": "#FFB6C1",
+        "deltaE": 0.051824
+      },
+      "pantone": {
+        "name": "cameo pink",
+        "hex": "#dba9b8",
+        "deltaE": 0.016897
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“xī” is evening, “lán” the mist on a mountain. A dusty rose, the colour of a hillside at dusk."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Major Heat is the hottest term of the year. Its palette is a single muted rose, opening with the softest — heat seen at a distance, the hills muffled in rose-coloured haze, the colour cooled by the hour."
+      },
+      "citation": {
+        "zh": "曾几《大暑》",
+        "en": "Zeng Ji, “Major Heat” — “when will the red sun pass? No cool breeze can be found.” (opening colour of 大暑.)"
+      },
+      "caution": null,
+      "term": "大暑",
+      "termEn": "Major Heat",
+      "termIndex": 11,
+      "season": "夏",
+      "seasonEn": "Summer",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"赤日几时过，清风无处寻。\"",
+      "story": "大暑是一年中最热的节气。夕岚色取自傍晚山间的雾气，是大暑节气的起色。"
+    },
+    {
+      "slug": "qie-lan",
+      "name": "窃蓝",
+      "pinyin": "Qiè Lán",
+      "enName": "Stolen Blue",
+      "hex": "#88ABDA",
+      "rgb": [
+        136,
+        171,
+        218
+      ],
+      "hsl": [
+        214,
+        53,
+        69
+      ],
+      "oklch": [
+        0.733,
+        0.079,
+        255.9
+      ],
+      "family": "蓝",
+      "familyEn": "Blue",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "cornflowerblue",
+        "hex": "#6495ED",
+        "deltaE": 0.086065
+      },
+      "pantone": {
+        "name": "placid blue",
+        "hex": "#8cadd3",
+        "deltaE": 0.013915
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“Qiè” is to steal. A blue so pale it seems filched from a fuller one — the first thin blue of an autumn sky."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Start of Autumn opens the year’s blue half: the heat withdraws, the sky clears. Its palette is one blue family, beginning at the lightest — the colour a summer sky keeps in reserve before autumn deepens it."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：立秋之日，凉风至。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of Start of Autumn, cool winds arrive.” (opening colour of 立秋.)"
+      },
+      "caution": null,
+      "term": "立秋",
+      "termEn": "Start of Autumn",
+      "termIndex": 12,
+      "season": "秋",
+      "seasonEn": "Autumn",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"凉风至，白露降，寒蝉鸣。\"",
+      "story": "立秋是秋季的开始，暑去凉来。窃蓝色取自天空的淡蓝色，是立秋节气的起色。"
+    },
+    {
+      "slug": "tui-hong",
+      "name": "退红",
+      "pinyin": "Tuì Hóng",
+      "enName": "Faded Red",
+      "hex": "#F0CFE3",
+      "rgb": [
+        240,
+        207,
+        227
+      ],
+      "hsl": [
+        324,
+        52,
+        88
+      ],
+      "oklch": [
+        0.888,
+        0.045,
+        341.1
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "thistle",
+        "hex": "#D8BFD8",
+        "deltaE": 0.055984
+      },
+      "pantone": {
+        "name": "cherry blossom",
+        "hex": "#f7cee0",
+        "deltaE": 0.010402
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“Tuì” is to recede. A red that has washed out to a pale pink — the colour heat leaves behind."
+      },
+      "origin": {
+        "zh": "",
+        "en": "End of Heat is the term when the worst of the summer finally lifts. Its palette is a single family of pinks, opening with the most washed-out — the tone a red cloth fades to after a season in the sun."
+      },
+      "citation": {
+        "zh": "白居易《处暑》",
+        "en": "Bai Juyi, “End of Heat” — “the dense heat clouds scatter; a slender cool wind rises.” (opening colour of 处暑.)"
+      },
+      "caution": null,
+      "term": "处暑",
+      "termEn": "End of Heat",
+      "termIndex": 13,
+      "season": "秋",
+      "seasonEn": "Autumn",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"离离暑云散，袅袅凉风起。\"",
+      "story": "处暑意味着炎热离开。退红色取自浅红消退之色，是处暑节气的起色。"
+    },
+    {
+      "slug": "ning-zhi",
+      "name": "凝脂",
+      "pinyin": "Níng Zhī",
+      "enName": "Congealed Fat",
+      "hex": "#F5F2E9",
+      "rgb": [
+        245,
+        242,
+        233
+      ],
+      "hsl": [
+        45,
+        38,
+        94
+      ],
+      "oklch": [
+        0.961,
+        0.012,
+        91.5
+      ],
+      "family": "白",
+      "familyEn": "White",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "floralwhite",
+        "hex": "#FFFAF0",
+        "deltaE": 0.025355
+      },
+      "pantone": {
+        "name": "coconut milk",
+        "hex": "#f0ede5",
+        "deltaE": 0.014832
+      },
+      "meaning": {
+        "zh": "",
+        "en": "From the Book of Songs, “her skin like congealed fat” — a smooth, creamy, faintly warm white."
+      },
+      "origin": {
+        "zh": "",
+        "en": "White Dew is the term when dew forms and cold deepens. Its palette is four near-whites drifting into pale yellow, and it opens with the creamiest — skin, jade, and silk-whites rather than snow."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：白露之日，鸿雁来。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of White Dew, wild geese come; swallows depart.” (opening colour of 白露.)"
+      },
+      "caution": null,
+      "term": "白露",
+      "termEn": "White Dew",
+      "termIndex": 14,
+      "season": "秋",
+      "seasonEn": "Autumn",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"鸿雁来，玄鸟归，群鸟养羞。\"",
+      "story": "白露是寒气增长、露水凝结之节。凝脂色取自美人肌肤如玉，是白露节气的起色。"
+    },
+    {
+      "slug": "luan-se",
+      "name": "卵色",
+      "pinyin": "Luǎn Sè",
+      "enName": "Eggshell Green",
+      "hex": "#D5E3D4",
+      "rgb": [
+        213,
+        227,
+        212
+      ],
+      "hsl": [
+        116,
+        21,
+        86
+      ],
+      "oklch": [
+        0.901,
+        0.025,
+        143.5
+      ],
+      "family": "绿",
+      "familyEn": "Green",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "honeydew",
+        "hex": "#F0FFF0",
+        "deltaE": 0.08373
+      },
+      "pantone": {
+        "name": "fairest jade",
+        "hex": "#d8e3d7",
+        "deltaE": 0.005984
+      },
+      "meaning": {
+        "zh": "",
+        "en": "The pale green-blue of a duck-egg shell — the palest of the term’s four."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Autumn Equinox balances day and night a second time in the year. Its palette is four pale celadons, opening at the lightest: the cool, even grey-greens of a balanced sky and a quiet field."
+      },
+      "citation": {
+        "zh": "元稹《秋分》",
+        "en": "Yuan Zhen, “Autumn Equinox” — “the water-clock still runs shallow; the season turns.” (opening colour of 秋分.)"
+      },
+      "caution": null,
+      "term": "秋分",
+      "termEn": "Autumn Equinox",
+      "termIndex": 15,
+      "season": "秋",
+      "seasonEn": "Autumn",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"漏钟仍夜浅，时节欲秋分。\"",
+      "story": "秋分是昼夜再次平分之日。卵色取自鸭蛋壳的淡绿色，是秋分节气的起色。"
+    },
+    {
+      "slug": "ling-lu",
+      "name": "醽醁",
+      "pinyin": "Líng Lù",
+      "enName": "Linglu Wine",
+      "hex": "#A6BAB1",
+      "rgb": [
+        166,
+        186,
+        177
+      ],
+      "hsl": [
+        153,
+        13,
+        69
+      ],
+      "oklch": [
+        0.771,
+        0.025,
+        166.9
+      ],
+      "family": "绿",
+      "familyEn": "Green",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "silver",
+        "hex": "#C0C0C0",
+        "deltaE": 0.044738
+      },
+      "pantone": {
+        "name": "silt green",
+        "hex": "#a9bdb1",
+        "deltaE": 0.009577
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“Línglù” is a celebrated green wine of the classical repertoire. A pale, greyed green with a watery light."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Cold Dew brings the dew that will soon whiten, and its palette is four muted greens fading toward grey. It opens with green wine in a cup — the term’s colour first seen as a liquid, thin and luminous."
+      },
+      "citation": {
+        "zh": "戴察《寒露》",
+        "en": "Dai Cha, “Cold Dew” — “on sparse paulownia leaves the white dew first gathers.” (opening colour of 寒露.)"
+      },
+      "caution": null,
+      "term": "寒露",
+      "termEn": "Cold Dew",
+      "termIndex": 16,
+      "season": "秋",
+      "seasonEn": "Autumn",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"萧疏桐叶上，月白露初团。\"",
+      "story": "寒露是寒气渐生、露水凝结之节。醽醁色取自美酒的淡绿色，是寒露节气的起色。"
+    },
+    {
+      "slug": "yin-zhu",
+      "name": "银朱",
+      "pinyin": "Yín Zhū",
+      "enName": "Vermilion",
+      "hex": "#D12920",
+      "rgb": [
+        209,
+        41,
+        32
+      ],
+      "hsl": [
+        3,
+        73,
+        47
+      ],
+      "oklch": [
+        0.559,
+        0.204,
+        28.9
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "firebrick",
+        "hex": "#B22222",
+        "deltaE": 0.066783
+      },
+      "pantone": {
+        "name": "poinciana",
+        "hex": "#ca3422",
+        "deltaE": 0.016192
+      },
+      "meaning": {
+        "zh": "",
+        "en": "The pigment name for bright mercury vermilion — “silver vermilion”. A clear, hot red."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Frost’s Descent is the last term of autumn and the year’s coldest turn. Its palette is four reds, opening with a pure, fired pigment red — the colour of cinnabar, the loudest note in a quiet season."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：霜降之日，豺乃祭兽。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of Frost’s Descent, the jackal offers its kill.” (opening colour of 霜降.)"
+      },
+      "caution": null,
+      "term": "霜降",
+      "termEn": "Frost's Descent",
+      "termIndex": 17,
+      "season": "秋",
+      "seasonEn": "Autumn",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"豺乃祭兽，草木黄落，蛰虫咸俯。\"",
+      "story": "霜降是秋季最后一个节气，气温骤降。银朱色取自朱砂的赤红，是霜降节气的起色。"
+    },
+    {
+      "slug": "ban-jian",
+      "name": "半见",
+      "pinyin": "Bàn Jiàn",
+      "enName": "Half-Seen",
+      "hex": "#FFFBC7",
+      "rgb": [
+        255,
+        251,
+        199
+      ],
+      "hsl": [
+        56,
+        100,
+        89
+      ],
+      "oklch": [
+        0.979,
+        0.067,
+        103.9
+      ],
+      "family": "黄",
+      "familyEn": "Yellow",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "lemonchiffon",
+        "hex": "#FFFACD",
+        "deltaE": 0.008801
+      },
+      "pantone": {
+        "name": "almond oil",
+        "hex": "#f4efc1",
+        "deltaE": 0.03463
+      },
+      "meaning": {
+        "zh": "",
+        "en": "“Bàn jiàn” is to see only half — a yellow so pale it is barely present, glimpsed rather than shown."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Start of Winter opens the year’s pale half. The term’s palette is a single soft yellow, and it begins at the very lightest: a yellow you have to look for, the colour of thin winter sun on a wall."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：立冬之日，水始冰。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of Start of Winter, water begins to freeze.” (opening colour of 立冬.)"
+      },
+      "caution": null,
+      "term": "立冬",
+      "termEn": "Start of Winter",
+      "termIndex": 18,
+      "season": "冬",
+      "seasonEn": "Winter",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"水始冰，地始冻，雉入大水为蜃。\"",
+      "story": "立冬是冬季的开始。半见色取自隐约可见的浅黄色，是立冬节气的起色。"
+    },
+    {
+      "slug": "long-gao-zhu",
+      "name": "龙膏烛",
+      "pinyin": "Lóng Gāo Zhú",
+      "enName": "Dragon-Fat Candle",
+      "hex": "#DE82A7",
+      "rgb": [
+        222,
+        130,
+        167
+      ],
+      "hsl": [
+        336,
+        58,
+        69
+      ],
+      "oklch": [
+        0.716,
+        0.121,
+        355
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "palevioletred",
+        "hex": "#DB7093",
+        "deltaE": 0.043419
+      },
+      "pantone": {
+        "name": "aurora pink",
+        "hex": "#e881a6",
+        "deltaE": 0.017053
+      },
+      "meaning": {
+        "zh": "",
+        "en": "Legend held that candles made from dragon fat burned without guttering. Named for the pink glow of candlelight."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Minor Snow is the second term of winter, when rain turns to snow. Its palette is four pinks, and it opens with the warmest — a glow rather than a pigment, light seen through the eye."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：小雪之日，虹藏不见。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of Minor Snow, the rainbow hides from sight.” (opening colour of 小雪.)"
+      },
+      "caution": null,
+      "term": "小雪",
+      "termEn": "Minor Snow",
+      "termIndex": 19,
+      "season": "冬",
+      "seasonEn": "Winter",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"虹藏不见，天气上腾，地气下降。\"",
+      "story": "小雪是冬季第二个节气，降水形式变为雪。龙膏烛色取自烛光的红粉色，是小雪节气的起色。"
+    },
+    {
+      "slug": "fen-mi",
+      "name": "粉米",
+      "pinyin": "Fěn Mǐ",
+      "enName": "Rice Powder",
+      "hex": "#EFC4CE",
+      "rgb": [
+        239,
+        196,
+        206
+      ],
+      "hsl": [
+        346,
+        57,
+        85
+      ],
+      "oklch": [
+        0.86,
+        0.051,
+        2.6
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "pink",
+        "hex": "#FFC0CB",
+        "deltaE": 0.024634
+      },
+      "pantone": {
+        "name": "parfait pink",
+        "hex": "#e9c3cf",
+        "deltaE": 0.00967
+      },
+      "meaning": {
+        "zh": "",
+        "en": "Both a pale pink and an ancient embroidered motif — rice grains stitched in white on ceremonial robes."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Major Snow is the deepest term of winter, and its four pinks run steadily darker. It opens with the palest, named for a pattern of white rice on cloth — abundance remembered in the darkest month."
+      },
+      "citation": {
+        "zh": "薛能《大雪》",
+        "en": "Xue Neng, “Major Snow” — “great snow fills the early morning; open the door and all is made new.” (opening colour of 大雪.)"
+      },
+      "caution": null,
+      "term": "大雪",
+      "termEn": "Major Snow",
+      "termIndex": 20,
+      "season": "冬",
+      "seasonEn": "Winter",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"大雪满初晨，开门万象新。\"",
+      "story": "大雪是仲冬开始，降雪增多。粉米色取自粉红色的稻米，是大雪节气的起色。"
+    },
+    {
+      "slug": "yin-hong-dong-zhi",
+      "name": "银红",
+      "pinyin": "Yín Hóng",
+      "enName": "Silver Pink",
+      "hex": "#E7CAD3",
+      "rgb": [
+        231,
+        202,
+        211
+      ],
+      "hsl": [
+        341,
+        38,
+        85
+      ],
+      "oklch": [
+        0.866,
+        0.035,
+        357.1
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "thistle",
+        "hex": "#D8BFD8",
+        "deltaE": 0.039861
+      },
+      "pantone": {
+        "name": "ballet slipper",
+        "hex": "#ebced5",
+        "deltaE": 0.012027
+      },
+      "meaning": {
+        "zh": "",
+        "en": "A pink so pale it takes silver’s coolness — the lightest colour of the term."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Winter Solstice is the shortest day of the year and the turning point of the winter. Its palette is four pinks, opening at the palest — the year at its darkest, and the colour at its faintest, both about to turn back."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：冬至之日，蚯蚓结。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of the Winter Solstice, earthworms knot themselves.” (opening colour of 冬至.)"
+      },
+      "caution": null,
+      "term": "冬至",
+      "termEn": "Winter Solstice",
+      "termIndex": 21,
+      "season": "冬",
+      "seasonEn": "Winter",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"蚯蚓结，麋角解，水泉动。\"",
+      "story": "冬至是白昼最短之日。银红色取自银色的粉红，是冬至节气的起色。"
+    },
+    {
+      "slug": "zan-bai",
+      "name": "酂白",
+      "pinyin": "Zàn Bái",
+      "enName": "Zan White",
+      "hex": "#F6F9E4",
+      "rgb": [
+        246,
+        249,
+        228
+      ],
+      "hsl": [
+        69,
+        64,
+        94
+      ],
+      "oklch": [
+        0.974,
+        0.028,
+        113.5
+      ],
+      "family": "绿",
+      "familyEn": "Green",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "beige",
+        "hex": "#F5F5DC",
+        "deltaE": 0.012307
+      },
+      "pantone": {
+        "name": "glass green",
+        "hex": "#ecead0",
+        "deltaE": 0.043362
+      },
+      "meaning": {
+        "zh": "",
+        "en": "A very pale, cool rice-white named for the ancient place Zan. The lightest tone of the term."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Minor Cold is the term when the cold has not yet reached its limit, and its palette is four pale yellows tending to cream. It opens at the whitest — the faintest yellow, almost a white, the colour of light in thin frost air."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：小寒之日，雁北乡。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of Minor Cold, wild geese head north.” (opening colour of 小寒.)"
+      },
+      "caution": null,
+      "term": "小寒",
+      "termEn": "Minor Cold",
+      "termIndex": 22,
+      "season": "冬",
+      "seasonEn": "Winter",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"雁北乡，鹊始巢，雉始雊。\"",
+      "story": "小寒是天气寒冷但未达极点。酂白色取自极浅的米白色，是小寒节气的起色。"
+    },
+    {
+      "slug": "zi-fu",
+      "name": "紫府",
+      "pinyin": "Zǐ Fǔ",
+      "enName": "Purple Mansion",
+      "hex": "#995D7F",
+      "rgb": [
+        153,
+        93,
+        127
+      ],
+      "hsl": [
+        326,
+        24,
+        48
+      ],
+      "oklch": [
+        0.556,
+        0.09,
+        345.4
+      ],
+      "family": "赤",
+      "familyEn": "Red",
+      "system": "solar",
+      "systemCode": "B",
+      "systemName": "节气色系",
+      "credibility": "古籍直证",
+      "css": {
+        "name": "mediumvioletred",
+        "hex": "#C71585",
+        "deltaE": 0.131909
+      },
+      "pantone": {
+        "name": "bordeaux",
+        "hex": "#96637b",
+        "deltaE": 0.018911
+      },
+      "meaning": {
+        "zh": "",
+        "en": "The Purple Mansion is the Daoist abode of immortals — purple as the colour of the highest heaven."
+      },
+      "origin": {
+        "zh": "",
+        "en": "Major Cold is the last term of the year and the coldest. Its palette is four purples running to near-black, opening at the lightest — the colour of a celestial palace seen at the end of winter."
+      },
+      "citation": {
+        "zh": "《礼记·月令》：大寒之日，鸡使乳。",
+        "en": "Book of Rites, Monthly Ordinances: “On the day of Major Cold, hens begin to brood.” (opening colour of 大寒.)"
+      },
+      "caution": null,
+      "term": "大寒",
+      "termEn": "Major Cold",
+      "termIndex": 23,
+      "season": "冬",
+      "seasonEn": "Winter",
+      "role": "起色",
+      "roleEn": "Opening",
+      "phenology": "\"鸡使乳，鸷鸟厉疾，水泽腹坚。\"",
+      "story": "大寒是一年中最冷的节气。紫府色取自道教仙境的紫色，是大寒节气的起色。"
+    }
+  ]
+}

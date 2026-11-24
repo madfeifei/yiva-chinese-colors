@@ -1,0 +1,27 @@
+{
+  "name": "yiva-chinese-colors",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open sample of the YIVA Chinese Colour Library: a standalone colour card demo and the @yiva/chinese-colors package.",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://yivadigital.com/colors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madfeifei/yiva-chinese-colors.git"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @yiva/color-card",
+    "build": "npm run build:data && npm run build:app && npm run build:pkg",
+    "build:data": "node scripts/build-package-data.mjs",
+    "build:app": "npm run build -w @yiva/color-card",
+    "build:pkg": "npm run build -w @yiva/chinese-colors",
+    "preview": "npm run preview -w @yiva/color-card"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
