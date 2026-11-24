@@ -1,0 +1,34 @@
+slug,name,pinyin,enName,hex,rgb,hsl,oklch,family,familyEn,system,term,termEn,role,roleEn,cssName,cssHex,cssDeltaE,pantoneName,pantoneHex,pantoneDeltaE,credibility
+zhu-sha,朱砂,zhū shā,Cinnabar,#E34234,227 66 52,5 76 55,0.613 0.2 29.1,赤,Red,classical,,,,,crimson,#DC143C,0.0577,grenadine,#DF3F32,0.0099,文物取色
+xiang-se,缃色,xiāng sè,Silk Yellow,#F0C239,240 194 57,45 86 58,0.832 0.154 89.1,黄,Yellow,classical,,,,,gold,#FFD700,0.063954,freesia,#F3C12C,0.006758,古籍直证
+zhu-qing,竹青,zhú qīng,Bamboo Green,#789262,120 146 98,93 20 48,0.627 0.075 131.4,绿,Green,classical,,,,,olivedrab,#6B8E23,0.068752,jade-green,#759465,0.006253,古籍直证
+tian-qing,天青,tiān qīng,Ru-Kiln Sky,#78C0C0,120 192 192,180 36 61,0.761 0.072 195.7,青,Cyan,classical,,,,,mediumturquoise,#48D1CC,0.051612,aqua-sky,#7BC4C4,0.012017,文物取色
+qun-qing,群青,qún qīng,Ultramarine,#4C8DAE,76 141 174,200 39 49,0.614 0.083 232.4,蓝,Blue,classical,,,,,steelblue,#4682B4,0.036895,niagara,#5487A4,0.019716,文物取色
+ding-xiang,丁香,dīng xiāng,Lilac,#CCA4E3,204 164 227,278 53 77,0.776 0.098 312.9,紫,Purple,classical,,,,,plum,#DDA0DD,0.027352,mauve-mist,#C49BD4,0.030912,古籍直证
+xiang-ya-bai,象牙白,xiàng yá bái,Ivory,#FFFBF0,255 251 240,44 100 97,0.988 0.015 90.2,白,White,classical,,,,,floralwhite,#FFFAF0,0.00257,bright-white,#F4F5F0,0.022294,古籍直证
+mo-se,墨色,mò sè,Ink Grey,#33302D,51 48 45,30 6 19,0.311 0.007 67.6,黑,Black,classical,,,,,darkslategray,#2F4F4F,0.101,espresso,#363031,0.0094,文物取色
+zhe-shi,赭石,zhě shí,Red Ochre,#9C5333,156 83 51,18 51 41,0.523 0.107 43.5,褐,Brown,classical,,,,,sienna,#A0522D,0.008833,bombay-brown,#9F5130,0.006627,文物取色
+huang-bai-you,黄白游,Huáng Bái Yóu,Yellow-White Drift,#FFF799,255 247 153,55 100 80,0.962 0.116 104.1,黄,Yellow,solar,立春,Start of Spring,起色,Opening,khaki,#F0E68C,0.048916,elfin yellow,#eeea97,0.04221,古籍直证
+ying-ying,盈盈,Yíng Yíng,Brimming,#F9D3E3,249 211 227,335 76 90,0.903 0.047 350.8,赤,Red,solar,雨水,Rain Water,起色,Opening,pink,#FFC0CB,0.04745,cherry blossom,#f7cee0,0.012728,古籍直证
+chi-ti,赤缇,Chì Tí,Red Ochre,#BA5B49,186 91 73,10 45 51,0.583 0.127 32.2,赤,Red,solar,惊蛰,Awakening of Insects,起色,Opening,indianred,#CD5C5C,0.043829,mecca orange,#bd5745,0.009184,古籍直证
+jiao-yu,皦玉,Jiǎo Yù,Bright Jade,#EBEEE8,235 238 232,90 15 92,0.945 0.009 128.6,白,White,solar,春分,Spring Equinox,起色,Opening,whitesmoke,#F5F5F5,0.026423,star white,#efefe8,0.006121,古籍直证
+zi-pu,紫蒲,Zǐ Pú,Purple Cattail,#A6559D,166 85 157,307 32 49,0.572 0.14 331.5,赤,Red,solar,清明,Pure Brightness,起色,Opening,mediumorchid,#BA55D3,0.089409,radiant orchid,#ad5e99,0.028393,古籍直证
+chang-rong,昌荣,Chāng Róng,Flourishing,#DCC7E1,220 199 225,288 30 83,0.855 0.042 319.7,紫,Purple,solar,谷雨,Grain Rain,起色,Opening,thistle,#D8BFD8,0.022224,lilac snow,#e0c7d7,0.014809,古籍直证
+qing-can,青粲,Qīng Càn,Fresh Grain Green,#C3D94E,195 217 78,69 65 58,0.843 0.163 117.7,绿,Green,solar,立夏,Start of Summer,起色,Opening,yellowgreen,#9ACD32,0.067165,lime popsicle,#c0db3a,0.016616,古籍直证
+tong-guan,彤管,Tóng Guǎn,Vermilion Tube,#E2A2AC,226 162 172,351 52 76,0.776 0.077 8.7,赤,Red,solar,小满,Grain Full,起色,Opening,lightpink,#FFB6C1,0.072068,peony,#ed9ca8,0.020943,古籍直证
+jun-wu,筠雾,Jūn Wù,Bamboo Mist,#D5D1AE,213 209 174,54 32 76,0.855 0.047 101.9,黄,Yellow,solar,芒种,Grain in Ear,起色,Opening,palegoldenrod,#EEE8AA,0.073931,hay,#d3cca3,0.016664,古籍直证
+xi-chi,赩炽,Xì Chì,Blazing Red,#CB523E,203 82 62,9 58 52,0.594 0.158 31.6,赤,Red,solar,夏至,Summer Solstice,起色,Opening,indianred,#CD5C5C,0.035794,paprika,#ce4d42,0.012545,古籍直证
+xing-gang,骍刚,Xīng Gāng,Firm Red,#F5B087,245 176 135,22 85 75,0.813 0.098 51.6,黄,Yellow,solar,小暑,Minor Heat,起色,Opening,lightsalmon,#FFA07A,0.037567,apricot wash,#fbac82,0.012306,古籍直证
+xi-lan,夕岚,Xī Lán,Evening Haze,#E3ADB9,227 173 185,347 49 78,0.8 0.065 3.9,赤,Red,solar,大暑,Major Heat,起色,Opening,lightpink,#FFB6C1,0.051824,cameo pink,#dba9b8,0.016897,古籍直证
+qie-lan,窃蓝,Qiè Lán,Stolen Blue,#88ABDA,136 171 218,214 53 69,0.733 0.079 255.9,蓝,Blue,solar,立秋,Start of Autumn,起色,Opening,cornflowerblue,#6495ED,0.086065,placid blue,#8cadd3,0.013915,古籍直证
+tui-hong,退红,Tuì Hóng,Faded Red,#F0CFE3,240 207 227,324 52 88,0.888 0.045 341.1,赤,Red,solar,处暑,End of Heat,起色,Opening,thistle,#D8BFD8,0.055984,cherry blossom,#f7cee0,0.010402,古籍直证
+ning-zhi,凝脂,Níng Zhī,Congealed Fat,#F5F2E9,245 242 233,45 38 94,0.961 0.012 91.5,白,White,solar,白露,White Dew,起色,Opening,floralwhite,#FFFAF0,0.025355,coconut milk,#f0ede5,0.014832,古籍直证
+luan-se,卵色,Luǎn Sè,Eggshell Green,#D5E3D4,213 227 212,116 21 86,0.901 0.025 143.5,绿,Green,solar,秋分,Autumn Equinox,起色,Opening,honeydew,#F0FFF0,0.08373,fairest jade,#d8e3d7,0.005984,古籍直证
+ling-lu,醽醁,Líng Lù,Linglu Wine,#A6BAB1,166 186 177,153 13 69,0.771 0.025 166.9,绿,Green,solar,寒露,Cold Dew,起色,Opening,silver,#C0C0C0,0.044738,silt green,#a9bdb1,0.009577,古籍直证
+yin-zhu,银朱,Yín Zhū,Vermilion,#D12920,209 41 32,3 73 47,0.559 0.204 28.9,赤,Red,solar,霜降,Frost's Descent,起色,Opening,firebrick,#B22222,0.066783,poinciana,#ca3422,0.016192,古籍直证
+ban-jian,半见,Bàn Jiàn,Half-Seen,#FFFBC7,255 251 199,56 100 89,0.979 0.067 103.9,黄,Yellow,solar,立冬,Start of Winter,起色,Opening,lemonchiffon,#FFFACD,0.008801,almond oil,#f4efc1,0.03463,古籍直证
+long-gao-zhu,龙膏烛,Lóng Gāo Zhú,Dragon-Fat Candle,#DE82A7,222 130 167,336 58 69,0.716 0.121 355,赤,Red,solar,小雪,Minor Snow,起色,Opening,palevioletred,#DB7093,0.043419,aurora pink,#e881a6,0.017053,古籍直证
+fen-mi,粉米,Fěn Mǐ,Rice Powder,#EFC4CE,239 196 206,346 57 85,0.86 0.051 2.6,赤,Red,solar,大雪,Major Snow,起色,Opening,pink,#FFC0CB,0.024634,parfait pink,#e9c3cf,0.00967,古籍直证
+yin-hong-dong-zhi,银红,Yín Hóng,Silver Pink,#E7CAD3,231 202 211,341 38 85,0.866 0.035 357.1,赤,Red,solar,冬至,Winter Solstice,起色,Opening,thistle,#D8BFD8,0.039861,ballet slipper,#ebced5,0.012027,古籍直证
+zan-bai,酂白,Zàn Bái,Zan White,#F6F9E4,246 249 228,69 64 94,0.974 0.028 113.5,绿,Green,solar,小寒,Minor Cold,起色,Opening,beige,#F5F5DC,0.012307,glass green,#ecead0,0.043362,古籍直证
+zi-fu,紫府,Zǐ Fǔ,Purple Mansion,#995D7F,153 93 127,326 24 48,0.556 0.09 345.4,赤,Red,solar,大寒,Major Cold,起色,Opening,mediumvioletred,#C71585,0.131909,bordeaux,#96637b,0.018911,古籍直证

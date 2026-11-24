@@ -1,0 +1,39 @@
+/* Chinese Colour Library — open sample (33 colours)
+ * Data: CC BY 4.0 — YIVA Digital (https://yivadigital.com/colors)
+ * Code: MIT. Pantone/CSS values are nearest approximations, not official references.
+ */
+:root {
+  --cn-zhu-sha: #E34234; /* 朱砂 · Cinnabar */
+  --cn-xiang-se: #F0C239; /* 缃色 · Silk Yellow */
+  --cn-zhu-qing: #789262; /* 竹青 · Bamboo Green */
+  --cn-tian-qing: #78C0C0; /* 天青 · Ru-Kiln Sky */
+  --cn-qun-qing: #4C8DAE; /* 群青 · Ultramarine */
+  --cn-ding-xiang: #CCA4E3; /* 丁香 · Lilac */
+  --cn-xiang-ya-bai: #FFFBF0; /* 象牙白 · Ivory */
+  --cn-mo-se: #33302D; /* 墨色 · Ink Grey */
+  --cn-zhe-shi: #9C5333; /* 赭石 · Red Ochre */
+  --cn-huang-bai-you: #FFF799; /* 黄白游 · Yellow-White Drift */
+  --cn-ying-ying: #F9D3E3; /* 盈盈 · Brimming */
+  --cn-chi-ti: #BA5B49; /* 赤缇 · Red Ochre */
+  --cn-jiao-yu: #EBEEE8; /* 皦玉 · Bright Jade */
+  --cn-zi-pu: #A6559D; /* 紫蒲 · Purple Cattail */
+  --cn-chang-rong: #DCC7E1; /* 昌荣 · Flourishing */
+  --cn-qing-can: #C3D94E; /* 青粲 · Fresh Grain Green */
+  --cn-tong-guan: #E2A2AC; /* 彤管 · Vermilion Tube */
+  --cn-jun-wu: #D5D1AE; /* 筠雾 · Bamboo Mist */
+  --cn-xi-chi: #CB523E; /* 赩炽 · Blazing Red */
+  --cn-xing-gang: #F5B087; /* 骍刚 · Firm Red */
+  --cn-xi-lan: #E3ADB9; /* 夕岚 · Evening Haze */
+  --cn-qie-lan: #88ABDA; /* 窃蓝 · Stolen Blue */
+  --cn-tui-hong: #F0CFE3; /* 退红 · Faded Red */
+  --cn-ning-zhi: #F5F2E9; /* 凝脂 · Congealed Fat */
+  --cn-luan-se: #D5E3D4; /* 卵色 · Eggshell Green */
+  --cn-ling-lu: #A6BAB1; /* 醽醁 · Linglu Wine */
+  --cn-yin-zhu: #D12920; /* 银朱 · Vermilion */
+  --cn-ban-jian: #FFFBC7; /* 半见 · Half-Seen */
+  --cn-long-gao-zhu: #DE82A7; /* 龙膏烛 · Dragon-Fat Candle */
+  --cn-fen-mi: #EFC4CE; /* 粉米 · Rice Powder */
+  --cn-yin-hong-dong-zhi: #E7CAD3; /* 银红 · Silver Pink */
+  --cn-zan-bai: #F6F9E4; /* 酂白 · Zan White */
+  --cn-zi-fu: #995D7F; /* 紫府 · Purple Mansion */
+}
